@@ -1,0 +1,94 @@
+.Submitlines{
+    border: 2px solid #898E97
+}
+.SubmitHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px ;
+}
+.Submiticon{ 
+    color: #898E97;
+    height: 20px;
+    padding: 0px 15px;
+}
+.SubmitHeader h1{
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.Submitedcon{
+    display: flex;
+    margin: 0px 0px 0px 20px ;
+}
+.SubmitLeft{
+    padding: 20px 0px;
+}
+.SubmitLeft ul li{
+    list-style: none;
+    font-family: Roboto Flex;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 40px 10px 41px 0px;
+}
+.SubmitRight{
+    width: 100%;
+    background: #F6F6F6;
+    padding: 20px 0px;
+}
+.SubmitRight h1{
+    fontfamily: Roboto Flex;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 10%;
+}
+.SubmitLeft h1{
+    fontfamily: Roboto Flex;
+    font-size: 20px;
+    font-weight: 400;
+}
+.SubmitBox{
+    background: #0961F5;
+    height: 85px;
+    border-radius: 5px;
+    margin: 10px 0px;  
+}
+.SubmitBox h1{
+    color: #ffffff;
+    fontfamily: Roboto Flex;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 10% ;
+    display: flex;
+}
+.TotalPresent,.TotalAbsent, .TotalLeave{
+    width: 18px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0px 0px 0px 10px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+}
+.TotalPresent{
+    background: #046B3A;   
+}
+.TotalAbsent{
+    background: #FF0000;
+}
+.TotalLeave{
+    background: #D9C726;
+}
+.SubmitAttendance{
+    display: flex;
+    justify-content: space-between;
+}
+.SubmitAttendance h1{
+    color: #ffffff;
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 10px;
+}

@@ -1,0 +1,44 @@
+.Theader{
+    display: flex;
+}
+.Theader img{
+    width: 50px;
+    height: 50px;
+    background-color: #A0A4AB;
+    border-radius: 40px;
+    margin: 10px 10px 0px 35%;
+}
+.Theader h1{
+    fontfamily: Roboto Flex;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0px ;
+}
+.chatconten{
+    width: 80%;
+    height: 62px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #DFF2E9;
+    margin: 30px 20px;
+    padding: 10px 5px ;
+}
+.chatconten h1{
+    fontfamily: Roboto Flex;
+    font-size: 15px;
+    font-weight: 400;
+    color: #046B3A;
+}
+.chatconten h2{
+    fontfamily: Roboto Flex;
+    font-size: 10px;
+    font-weight: 500;
+    color: #046B3A;
+    padding: 5px 5px ;
+}
+@media screen and (max-width:844px ){
+    .Theader img{
+        margin: 10px 10px 0px 10%;
+    }
+}

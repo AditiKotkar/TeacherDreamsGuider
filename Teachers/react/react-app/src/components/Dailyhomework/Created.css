@@ -1,0 +1,46 @@
+.Createdconten1 , .Createdconten2{
+    width: 98%;
+    height: 56px;
+    margin: 10px 0px;
+}
+.Createdconten2{
+    height: 201px;
+}
+.Createdteacher {
+    padding: 35px;
+}
+.Createdteacher input{
+    outline-color: #0961F5;
+    align-items: center;
+    justify-content: center;
+}
+.field input,
+.textarea textarea {
+  outline-color: #0961F5;
+  padding: 0 15px;
+  fontfamily: Roboto Flex;
+  font-size: 16px;
+  font-weight: 500;
+}
+.Createdbutons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40PX;
+}
+.CreatedUpload ,.CreatedSUBMIT{
+    width: 124px;
+    height: 40px;
+    opacity: 0px;
+    border:2px solid #0961F5;
+    background: #FFFFFF;
+    color: #0961F5;
+    fontfamily: Roboto Flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+@media screen and (min-width:700px ){
+    .Createdheader h1 {
+        margin-left: 43%;
+    }
+}
